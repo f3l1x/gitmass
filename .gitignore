@@ -1,0 +1,11 @@
+# IDE
+/.idea
+
+# Node
+/node_modules
+
+# Config
+/secret.js
+
+# Temporary
+/tmp

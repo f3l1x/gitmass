@@ -1,0 +1,12 @@
+{
+  "name": "gitmass",
+  "version": "0.0.1",
+  "description": "Git massive tools",
+  "author": "Felix",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "esm": "^3.2.22"
+  },
+  "devDependencies": {}
+}
