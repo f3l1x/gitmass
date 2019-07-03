@@ -4,6 +4,10 @@
 
 Provide Github TOKEN into `/secret.js` file.
 
+```
+make init
+```
+
 ## Usage
 
 ```
