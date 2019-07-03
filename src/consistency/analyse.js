@@ -6,23 +6,6 @@ import { iterFileRepo } from "../utils/repos";
 
 const LOGGER = debug('debug');
 
-(() => {
-    iterFileRepo(
-        {
-            filter: repo => {
-                if (_.startsWith(repo.full_name, 'contributte/')) return true;
-                if (_.startsWith(repo.full_name, 'apitte/')) return true;
-                if (_.startsWith(repo.full_name, 'nettrine/')) return true;
-                return false;
-            }
-        },
-        analyseRepo,
-        repo => {
-            LOGGER(`Repo ${repo.full_name} not found. Clone it first`);
-        }
-    );
-})();
-
 function analyseRepo(repo, repoPath) {
     // supportNette3(repo, repoPath);
     // supportPhp(repo, repoPath);
@@ -107,3 +90,20 @@ function _parseComposer(path) {
 
     return JSON.parse(fs.readFileSync(`${path}/composer.json`));
 }
+
+(async () => {
+    iterFileRepo(
+        {
+            filter: repo => {
+                if (_.startsWith(repo.full_name, 'contributte/')) return true;
+                if (_.startsWith(repo.full_name, 'apitte/')) return true;
+                if (_.startsWith(repo.full_name, 'nettrine/')) return true;
+                return false;
+            }
+        },
+        analyseRepo,
+        repo => {
+            LOGGER(`Repo ${repo.full_name} not found. Clone it first`);
+        }
+    );
+})();

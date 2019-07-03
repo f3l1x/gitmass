@@ -3,7 +3,7 @@ const https = require("https");
 
 // =================================
 
-const {TOKEN} = require('./../config');
+const { TOKEN } = require('./../config');
 const repositories = require('./../data/contributte');
 
 function listAllGitterWebhooks() {
@@ -16,7 +16,7 @@ function listGitterWebooks(repo) {
     const options = {
         hostname: `api.github.com`,
         path: `/repos/contributte/${repo.name}/hooks?access_token=${TOKEN}`,
-        headers: {'User-Agent': 'Contributte'}
+        headers: { 'User-Agent': 'Contributte' }
     };
 
     https.get(options, (res) => {
@@ -40,7 +40,7 @@ function deleteWebhook(repo, webhook) {
         hostname: `api.github.com`,
         path: `/repos/contributte/${repo.name}/hooks/${webhook.id}?access_token=${TOKEN}`,
         method: 'DELETE',
-        headers: {'User-Agent': 'Contributte'}
+        headers: { 'User-Agent': 'Contributte' }
     };
 
     const req = https.request(options, (res) => {
@@ -52,5 +52,7 @@ function deleteWebhook(repo, webhook) {
     req.end();
 }
 
-// listGitterWebooks({name: 'console-extra'});
-listAllGitterWebhooks();
+(async () => {
+    // listGitterWebooks({name: 'console-extra'});
+    listAllGitterWebhooks();
+})();

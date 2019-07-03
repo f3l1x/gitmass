@@ -1,4 +1,5 @@
 const _ = require("lodash");
+const fs = require('fs');
 
 const data = {
   contributte: require("./../data/contributte"),
@@ -10,7 +11,7 @@ const data = {
   trainit: require("./../data/trainit"),
 };
 
-const repos = {
+const orgs = {
   contributte: {},
   apitte: {},
   nettrine: {},
@@ -32,9 +33,9 @@ function prepare() {
 
 function prepareRepos(id) {
   _(data[id])
-    .orderBy(["stargazers_count"], ["desc"])
+    .orderBy(["stargazers_count"], ["name"])
     .forEach(repo => {
-      repos[id][repo.name] = {
+      orgs[id][repo.name] = {
         name: `${id}/${repo.name}`,
         description: `${repo.description}`
       };
@@ -58,7 +59,7 @@ function repos2table() {
     `
 <table class="table table-striped table-hovered">
     <tbody>
-    ${compiled({ repos: repos["contributte"] })}
+    ${compiled({ repos: orgs["contributte"] })}
     </tbody>
 </table>
 `;
@@ -68,13 +69,21 @@ function repos2table() {
 
 function repos2json() {
   prepare();
-  console.log(JSON.stringify({repos: repos.contributte}, null, 2));
-  // console.log(JSON.stringify({repos: repos.apitte}, null, 2));
-  // console.log(JSON.stringify({repos: repos.nettrine}, null, 2));
-  // console.log(JSON.stringify({repos: repos.ninjify}, null, 2));
-  // console.log(JSON.stringify({ repos: repos.dockette }, null, 2));
-  // console.log(JSON.stringify({ repos: repos.trainit }, null, 2));
-  // console.log(JSON.stringify({ repos: repos.planette }, null, 2));
+
+  _.forEach(orgs, (org, name) => {
+    try {
+      fs.mkdirSync(`${__dirname}/../data/f3l1x`);
+    } catch (e) { }
+
+
+    const data = _(org)
+      .orderBy(['name'], ['asc'])
+      .value();
+
+    fs.writeFileSync(`${__dirname}/../data/f3l1x/${name}.json`, JSON.stringify({ repos: data }, null, 2));
+  })
 }
 
-repos2json();
+(async () => {
+  repos2json();
+})();

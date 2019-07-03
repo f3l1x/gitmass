@@ -1,30 +1,34 @@
 const _ = require('lodash');
-const repositories = require('./../data/contributte');
+const emoji = require('node-emoji');
 
-const table = {};
+const repositories = require('./../data/contributte.json');
 
 function generateTable() {
-    listAllRepositories();
+    const repos = listRepositories();
 
-    const compiled = _.template("<% _.forEach(repos, function(repo) { %> | \"<%= repo.name %>\":<%- repo.link %>  | <%- repo.description %> | \n<% }); %>");
+    const compiled = _.template("<% _.forEach(repos, function(repo) { %>| \"<%= repo.name %>\":<%- repo.link %>  | <%- repo.description %> | \n<% }); %>");
     const output = '' +
-        "| Package | Popis | \n"
-        + " |-----------------------| \n"
-        + compiled({repos: table});
+        "| Package | Popis |\n"
+        + "|-----------------------|\n"
+        + compiled({ repos });
 
     console.log(output);
 }
 
-function listAllRepositories() {
-    _.forEach(repositories, repo => listRepository(repo));
+function listRepositories() {
+    const repos = {};
+
+    _.forEach(repositories, repo => {
+        repos[repo.name] = {
+            name: `contributte/${repo.name}`,
+            link: `https://github.com/contributte/${repo.name}`,
+            description: emoji.emojify(repo.description),
+        }
+    });
+
+    return repos;
 }
 
-function listRepository(repo) {
-    table[repo.name] = {
-        name: `contributte/${repo.name}`,
-        link: `https://github.com/contributte/${repo.name}`,
-        description: repo.description,
-    }
-}
-
-generateTable();
+(async () => {
+    generateTable();
+})();

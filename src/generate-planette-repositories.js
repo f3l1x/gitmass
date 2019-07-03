@@ -37,4 +37,6 @@ function generateNettrine() {
     });
 }
 
-generate();
+(async () => {
+    generate();
+})();
