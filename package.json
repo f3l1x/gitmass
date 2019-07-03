@@ -7,9 +7,9 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "debug": "^4.1.1",
-    "esm": "^3.2.22",
+    "esm": "^3.2.25",
     "lodash": "^4.17.11",
-    "semver": "^6.0.0"
-  },
-  "devDependencies": {}
+    "node-emoji": "^1.10.0",
+    "semver": "^6.2.0"
+  }
 }
