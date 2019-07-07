@@ -3,8 +3,8 @@ const https = require("https");
 
 // =================================
 
-const { TOKEN } = require('./../config');
-const repositories = require('./../data/contributte');
+const { TOKEN } = require('./../../config');
+const repositories = require('./../../data/contributte.json');
 
 function listAllGitterWebhooks() {
     _.forEach(repositories, repo => {
