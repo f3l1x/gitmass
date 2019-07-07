@@ -7,9 +7,9 @@ import { iterFileRepo } from "../utils/repos";
 const LOGGER = debug('debug');
 
 function analyseRepo(repo, repoPath) {
-    // supportNette3(repo, repoPath);
+    supportNette3(repo, repoPath);
     // supportPhp(repo, repoPath);
-    supportBranchAlias(repo, repoPath);
+    // supportBranchAlias(repo, repoPath);
 }
 
 function supportNette3(repo, repoPath) {
@@ -95,6 +95,7 @@ function _parseComposer(path) {
     iterFileRepo(
         {
             filter: repo => {
+                if (repo.archived) return false;
                 if (_.startsWith(repo.full_name, 'contributte/')) return true;
                 if (_.startsWith(repo.full_name, 'apitte/')) return true;
                 if (_.startsWith(repo.full_name, 'nettrine/')) return true;

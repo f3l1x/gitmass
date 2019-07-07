@@ -9,6 +9,8 @@ export function iterRepo(options, callback) {
 
         if (options.filter) {
             repos = repos.filter(options.filter);
+        } else {
+            repos = repos.filter(r => !r.archived);
         }
 
         repos.forEach(repo => callback(repo));
