@@ -1,5 +1,6 @@
 import _ from "lodash";
 import debug from "debug";
+import path from "path";
 import * as fs from "fs";
 import semver from "semver";
 import { iterFileRepo } from "../utils/repos";
@@ -7,9 +8,10 @@ import { iterFileRepo } from "../utils/repos";
 const LOGGER = debug('debug');
 
 function analyseRepo(repo, repoPath) {
-    supportNette3(repo, repoPath);
+    // supportNette3(repo, repoPath);
     // supportPhp(repo, repoPath);
     // supportBranchAlias(repo, repoPath);
+    supportDocs(repo, repoPath);
 }
 
 function supportNette3(repo, repoPath) {
@@ -79,6 +81,12 @@ function supportBranchAlias(repo, repoPath) {
 
     if (!_.has(composer, 'extra.branch-alias')) {
         console.log(`${repo.full_name} does not have defined composer.extra.branch-alias`);
+    }
+}
+
+function supportDocs(repo, repoPath) {
+    if (!fs.existsSync(path.join(repoPath, '.docs'))) {
+        console.log(`${repo.full_name} does not have .docs folder`);
     }
 }
 
