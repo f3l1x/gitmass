@@ -8,19 +8,21 @@ const orgs = {
     nettrine: require('./../../data/nettrine.json'),
 }
 
-function setHomepages() {
+function updateProjects() {
     _.forEach(orgs, org => {
         _.forEach(org, repo => {
-            setHomepage(repo);
+            updateProject(repo);
         })
     })
 }
 
-function setHomepage(repo) {
-    const data = JSON.stringify({
+function updateProject(repo) {
+    const data = {
         "name": repo.name,
-        "homepage": `https://contributte.org/packages/${repo.full_name}.html`,
-    });
+    };
+
+    decorateProjectHomepage(repo, data);
+    decorateProjectButtons(repo, data);
 
     const options = {
         hostname: `api.github.com`,
@@ -50,11 +52,21 @@ function setHomepage(repo) {
         console.error(e);
     });
 
-    req.write(data);
+    req.write(JSON.stringify(data));
     req.end();
+}
+
+function decorateProjectHomepage(repo, data) {
+    data.homepage = `https://contributte.org/packages/${repo.full_name}.html`;
+}
+
+function decorateProjectButtons(repo, data) {
+    data.allow_squash_merge = false;
+    data.allow_merge_commit = false;
+    data.allow_rebase_merge = true;
 }
 
 (async () => {
     // setHomepage({ name: "mobilni-platby" });
-    setHomepages();
+    updateProjects();
 })();
