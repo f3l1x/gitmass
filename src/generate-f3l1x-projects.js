@@ -1,49 +1,33 @@
 const _ = require("lodash");
 const fs = require('fs');
 
-const data = {
-  contributte: require("./../data/contributte"),
-  apitte: require("./../data/apitte"),
-  nettrine: require("./../data/nettrine"),
-  ninjify: require("./../data/ninjify"),
-  planette: require("./../data/planette"),
-  dockette: require("./../data/dockette"),
-  trainit: require("./../data/trainit"),
-};
-
-const orgs = {
-  contributte: {},
-  apitte: {},
-  nettrine: {},
-  ninjify: {},
-  planette: {},
-  dockette: {},
-  trainit: {}
-};
-
 function prepare() {
-  prepareRepos("contributte");
-  prepareRepos("apitte");
-  prepareRepos("nettrine");
-  prepareRepos("ninjify");
-  prepareRepos("planette");
-  prepareRepos("dockette");
-  prepareRepos("trainit");
+  const data = {};
+  const orgs = require("./../data/organizations.json");
+  _(orgs).forEach((org, name) => {
+    data[name] = prepareRepos(name);
+  });
+
+  return data;
 }
 
-function prepareRepos(id) {
-  _(data[id])
+function prepareRepos(org) {
+  const data = {};
+  const repos = require(`./../data/${org}.json`);
+  _(repos)
     .orderBy(["stargazers_count"], ["name"])
     .forEach(repo => {
-      orgs[id][repo.name] = {
-        name: `${id}/${repo.name}`,
-        description: `${repo.description}`
+      data[repo.name] = {
+        name: `${org}/${repo.name}`,
+        description: repo.description || null
       };
     });
+
+  return data;
 }
 
 function repos2table() {
-  prepare();
+  const orgs = prepare();
 
   const compiled = _.template(`
         <% _.forEach(repos, function(repo) { %>
@@ -68,7 +52,7 @@ function repos2table() {
 }
 
 function repos2json() {
-  prepare();
+  const orgs = prepare();
 
   _.forEach(orgs, (org, name) => {
     try {
@@ -85,5 +69,6 @@ function repos2json() {
 }
 
 (async () => {
+  // repos2table();
   repos2json();
 })();

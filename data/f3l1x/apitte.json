@@ -1,0 +1,52 @@
+{
+  "repos": [
+    {
+      "name": "apitte/apitte-org",
+      "description": ":fireworks: Apitte website"
+    },
+    {
+      "name": "apitte/console",
+      "description": ":pill: Symfony\\Console bridge for Apitte stack"
+    },
+    {
+      "name": "apitte/core",
+      "description": ":wrench: Enjoyable [PSR-7 based] API framework for Nette Framework. Heart of the apitte stack."
+    },
+    {
+      "name": "apitte/debug",
+      "description": ":interrobang: Debugging tools for Apitte stack"
+    },
+    {
+      "name": "apitte/events",
+      "description": ":loop: [WIP] Symfony\\EventDispatcher for Apitte stack"
+    },
+    {
+      "name": "apitte/fullstack",
+      "description": ":thumbsup: Apitte meta package with all features"
+    },
+    {
+      "name": "apitte/mapping",
+      "description": "[DEPRECATED] :pig: Request mappers, transformers and decorators  for Apitte stack"
+    },
+    {
+      "name": "apitte/middlewares",
+      "description": ":speedboat: Middlewares support for Apitte stack"
+    },
+    {
+      "name": "apitte/negotiation",
+      "description": ":art: Content-Negotiation support for Apitte stack"
+    },
+    {
+      "name": "apitte/openapi",
+      "description": ":family: OpenAPI specification for Apitte stack"
+    },
+    {c
+      "name": "apitte/openapi-toolkit",
+      "description": ":diamonds: Simple and intuitive OpenApi/Swagger compatible UI toolkit"
+    },
+    {
+      "name": "apitte/presenter",
+      "description": ":sunflower: PSR-7 for Nette\\Presenters with Apitte stack"
+    }
+  ]
+}

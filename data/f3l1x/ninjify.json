@@ -1,0 +1,44 @@
+{
+  "repos": [
+    {
+      "name": "ninjify/apiguy",
+      "description": null
+    },
+    {
+      "name": "ninjify/apio",
+      "description": "Online PHP API generator"
+    },
+    {
+      "name": "ninjify/coding-standard",
+      "description": ":pig_nose: Tuned & very strict coding standards for PHP projects"
+    },
+    {
+      "name": "ninjify/command-bus",
+      "description": ":bus: Command Bus - useful implementation in PHP"
+    },
+    {
+      "name": "ninjify/criteria",
+      "description": ":clapper: Criteria API - specification/expression pattern for common usage in PHP"
+    },
+    {
+      "name": "ninjify/imap",
+      "description": ":mailbox: Simple PHP IMAP wrapper"
+    },
+    {
+      "name": "ninjify/nunjuck",
+      "description": ":muscle: Special tuned version of @nette tester called nunjuck!"
+    },
+    {
+      "name": "ninjify/pipero",
+      "description": ":shower: Manage multiple PHP processes using built-in process pipes (proc)."
+    },
+    {
+      "name": "ninjify/portainer",
+      "description": "PHP API client for Portainer"
+    },
+    {
+      "name": "ninjify/qa",
+      "description": ":clap: Quality assurance for your PHP projects"
+    }
+  ]
+}
