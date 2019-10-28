@@ -19,7 +19,8 @@ function prepareRepos(org) {
     .forEach(repo => {
       data[repo.name] = {
         name: `${org}/${repo.name}`,
-        description: repo.description || null
+        description: repo.description || null,
+        stars: repo.stargazers_count
       };
     });
 
@@ -58,7 +59,6 @@ function repos2json() {
     try {
       fs.mkdirSync(`${__dirname}/../data/f3l1x`);
     } catch (e) { }
-
 
     const data = _(org)
       .orderBy(['name'], ['asc'])

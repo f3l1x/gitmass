@@ -25,10 +25,10 @@ async function syncOrgs() {
   fs.writeFileSync(__dirname + `/../data/organizations.json`, JSON.stringify(data, null, 2));
 }
 function syncRepos() {
-  _.forEach(organizations, async ({ name }) => {
+  _.forEach(organizations, async ({ webalize }) => {
     try {
-      const response = await httpclient.get(`/orgs/${name}/repos?per_page=200&access_token=${SECRET.TOKEN}`);
-      fs.writeFileSync(__dirname + `/../data/${name}.json`, JSON.stringify(response, null, 2));
+      const response = await httpclient.get(`/orgs/${webalize}/repos?per_page=200&access_token=${SECRET.TOKEN}`);
+      fs.writeFileSync(__dirname + `/../data/${webalize}.json`, JSON.stringify(response, null, 2));
     } catch (e) {
       console.log(e);
     }
