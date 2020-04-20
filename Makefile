@@ -1,5 +1,7 @@
-.PHONY: init
+.PHONY: install watch
 
-init:
-	@echo "Please, fill Github token in secret.js"
-	cp secret.js.dist secret.js
+install:
+	npm install
+
+watch:
+	npm run ts

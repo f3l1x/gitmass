@@ -4,12 +4,29 @@
   "description": "Git massive tools",
   "author": "Felix",
   "license": "MIT",
+  "engines": {
+    "node": "^13"
+  },
+  "type": "module",
   "dependencies": {
-    "chalk": "^2.4.2",
+    "@types/debug": "^4.1.5",
+    "@types/lodash": "^4.14.149",
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^13.5.0",
+    "@types/node-emoji": "^1.8.1",
+    "@types/semver": "^7.1.0",
+    "chalk": "^3.0.0",
     "debug": "^4.1.1",
     "esm": "^3.2.25",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.15",
+    "minimist": "^1.2.0",
     "node-emoji": "^1.10.0",
-    "semver": "^6.2.0"
+    "semver": "^7.1.0",
+    "ts-node": "^8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "ts": "tsc --watch"
   }
 }

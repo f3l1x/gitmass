@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": false,
+    "declaration": false,
+    "typeRoots": [
+      "./node_modules/@types",
+      "app/@types"
+    ],
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": [
+        "app/*"
+      ],
+      "@data/*": [
+        "data/*"
+      ],
+      "@libs/*": [
+        "libs/*"
+      ],
+      "@scripts/*": [
+        "scripts/*"
+      ]
+    }
+  },
+  "include": [
+    "app/**/*",
+    "libs/**/*",
+    "scripts/**/*"
+  ],
+  "exclude": [
+    "data",
+    "dist",
+    "tmp"
+  ],
+}
