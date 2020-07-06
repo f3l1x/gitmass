@@ -71,10 +71,10 @@
     "description": "R&D",
     "id": 35178455
   },
-  "f00b4rs": {
-    "name": "f00b4rs",
-    "webalize": "f00b4rs",
-    "description": "[f00b4rs] [meetups] [snippets] [codes] [coding dojo] [devs]",
+  "f00b4r": {
+    "name": "f00b4r",
+    "webalize": "f00b4r",
+    "description": "Livin-on-the-bleeding-edge-of-development",
     "id": 47671527
   },
   "netrixone": {
@@ -94,5 +94,23 @@
     "webalize": "ispalliance",
     "description": "",
     "id": 24393707
+  },
+  "beetfit": {
+    "name": "BeetFit",
+    "webalize": "beetfit",
+    "description": "",
+    "id": 27070959
+  },
+  "flowsource": {
+    "name": "Flow Source",
+    "webalize": "flowsource",
+    "description": "Flow Sourced Apps",
+    "id": 60388014
+  },
+  "krhk": {
+    "name": "Královehradecký kraj",
+    "webalize": "krhk",
+    "description": "",
+    "id": 46677684
   }
 }
