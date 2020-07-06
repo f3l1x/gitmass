@@ -1,8 +1,8 @@
 import _ from "lodash";
 import fs from "fs";
-import { ORGANIZATIONS } from "@app/config";
+import { ORGANIZATIONS, COMPANIES } from "@app/config";
 
-const SKIPPED = ['nette'];
+const SKIPPED = [...COMPANIES, 'nette'];
 
 function prepare() {
   const data = _(Object.keys(ORGANIZATIONS))
@@ -33,7 +33,7 @@ function repos2json() {
     fs.mkdirSync(`${__dirname}/../../data/f3l1x`);
   } catch (e) { }
 
-  fs.writeFileSync(`${__dirname}/../../data/f3l1x/projects.json`, JSON.stringify({ repos }, null, 2));
+  fs.writeFileSync(`${__dirname}/../../data/f3l1x/projects.json`, JSON.stringify(repos, null, 2));
 }
 
 (async () => {

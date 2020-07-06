@@ -1,6 +1,6 @@
 import _ from "lodash";
 import fs from "fs";
-import {ORGANIZATIONS} from "@app/config";
+import { ORGANIZATIONS, GITHUB_DIR } from "@app/config";
 import { fetchOrganization } from "@libs/http/github";
 
 async function main(): Promise<void> {
@@ -22,7 +22,7 @@ async function main(): Promise<void> {
     }
   }
 
-  fs.writeFileSync(__dirname + '/../../data/github/organizations.json', JSON.stringify(data, null, 2));
+  fs.writeFileSync(`${GITHUB_DIR}/organizations.json`, JSON.stringify(data, null, 2));
 }
 
 // @wanted
