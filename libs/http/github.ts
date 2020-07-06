@@ -7,7 +7,7 @@ export async function fetchOrganization(org: string): Promise<GithubOrg> {
 }
 
 export async function fetchRepositories(org: string): Promise<GithubOrg> {
-  const data = await httpclient.get(`/orgs/${org}/repos?per_page=200`);
+  const data = await httpclient.get(`/orgs/${org}/repos?per_page=200&type=public`);
 
   return data as GithubOrg;
 }
