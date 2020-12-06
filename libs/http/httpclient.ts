@@ -9,13 +9,6 @@ export function get(path: string, options: RequestOptions = {}): Promise<any> {
       headers: { "User-Agent": "Contributte" },
     };
 
-    if (process.env.GITHUB_TOKEN_GITMASS) {
-      defaults.headers = {
-        ...defaults.headers,
-        'Authorization': `token ${process.env.GITHUB_TOKEN_GITMASS}`,
-      }
-    }
-
     https
       .get({
         ...defaults,

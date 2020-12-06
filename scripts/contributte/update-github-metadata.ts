@@ -17,7 +17,7 @@ function main(): void {
       decorateProjectHomepage(repo, data);
       decorateProjectButtons(repo, data);
 
-      patchRepository(org, repo, data);
+      patchRepository({ org, repo, data });
     })
   })
 }

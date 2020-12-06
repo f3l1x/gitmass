@@ -9,7 +9,7 @@ async function main(): Promise<void> {
 
   for (const org of orgs) {
     try {
-      const githubOrg = await fetchOrganization(org);
+      const githubOrg = await fetchOrganization({ org });
 
       data[githubOrg.login] = {
         name: githubOrg.name,

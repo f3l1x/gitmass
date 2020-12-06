@@ -3,7 +3,7 @@ import fs from "fs";
 import { fetchTeam } from "@libs/http/github";
 
 async function dump() {
-  const githubTeam = await fetchTeam('contributte');
+  const githubTeam = await fetchTeam({ org: 'contributte' });
   const team = githubTeam.map(member => {
     return {
       username: member.login,

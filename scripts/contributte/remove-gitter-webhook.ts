@@ -4,8 +4,8 @@ import { fetchRepoWebhooks, deleteRepoGitterWebhook } from "@libs/http/github";
 
 function main(): void {
   _.forEach(repositories, async (repo) => {
-    const res1 = await fetchRepoWebhooks(repo.full_name);
-    const res2 = await deleteRepoGitterWebhook(repo.full_name, {});
+    await fetchRepoWebhooks({ org: repo.owner.login, repo: repo.name });
+    await deleteRepoGitterWebhook({ org: repo.owner.login, repo: repo.name, webhook: null });
   })
 }
 

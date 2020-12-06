@@ -1,39 +1,43 @@
-import * as httpclient from "./httpclient";
+import { Octokit } from "@octokit/rest";
 
-export async function fetchOrganization(org: string): Promise<GithubOrg> {
-  const res = await httpclient.get(`/orgs/${org}`);
+export const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN_GITMASS, userAgent: 'Gitmass v0.1' });
 
-  return res as GithubOrg;
+export async function fetchOrganization(ctx: { org: string }): Promise<GithubOrg> {
+  const res = await octokit.request(`GET /orgs/${ctx.org}`);
+
+  return res.data as GithubOrg;
 }
 
-export async function fetchRepositories(org: string): Promise<GithubOrg> {
-  const res = await httpclient.get(`/orgs/${org}/repos?per_page=200&type=public`);
+export async function fetchRepositories(ctx: { org: string }): Promise<GithubOrg> {
+  const res = await octokit.request(`GET /orgs/${ctx.org}/repos?per_page=200&type=public`);
 
-  return res as GithubOrg;
+  return res.data as GithubOrg;
 }
 
-export async function fetchTeam(org: string): Promise<GithubMember[]> {
-  const res = await httpclient.get(`/orgs/${org}/members`);
+export async function fetchTeam(ctx: { org: string }): Promise<GithubMember[]> {
+  const res = await octokit.request(`GET /orgs/${ctx.org}/members`);
 
-  return res as GithubMember[];
+  return res.data as GithubMember[];
 }
 
-export async function fetchRepoWebhooks(org: string, repo: string): Promise<GithubRepo> {
-  const res = await httpclient.get(`/repos/${org}/${repo}/hooks`);
+export async function fetchRepoWebhooks(ctx: { org: string, repo: string }): Promise<GithubRepo> {
+  const res = await octokit.request(`GET /repos/${ctx.org}/${ctx.repo}/hooks`);
 
   return res as GithubRepo;
 }
 
-export async function deleteRepoGitterWebhook(org: string, repo: string, webhook: any): Promise<void> {
+export async function deleteRepoGitterWebhook(ctx: { org: string, repo: string, webhook: any }): Promise<any> {
   // Skip non-gitter webhooks
-  if (!/https:\/\/webhooks.gitter.im\/e\/[a-zA-Z0-9]+/.test(webhook.config.url)) return;
+  if (!/https:\/\/webhooks.gitter.im\/e\/[a-zA-Z0-9]+/.test(ctx.webhook.config.url)) return;
 
-  const res = await httpclient.delete(`/repos/${org}/${repo}/hooks/${webhook.id}`);
-  console.log(`[${org}/${repo}]: removed webhook: ${webhook.config.url}`);
+  const res = await octokit.request(`DELETE /repos/${ctx.org}/${ctx.repo}/hooks/${ctx.webhook.id}`);
+  console.log(`[${ctx.org}/${ctx.repo}]: removed webhook: ${ctx.webhook.config.url}`);
+
+  return res.data;
 }
 
-export async function patchRepository(org: string, repo: string, data: any) {
-  const res = await httpclient.patch(`/repos/${org}/${repo}`, data);
+export async function patchRepository(ctx: { org: string, repo: string, data: any }): Promise<any> {
+  const res = await octokit.request(`PATCH /repos/${ctx.org}/${ctx.repo}`, ctx.data);
 
-  return res as GithubRepo;
+  return res.data as GithubRepo;
 }

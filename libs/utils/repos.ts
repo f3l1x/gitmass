@@ -3,9 +3,12 @@ import fs from "fs";
 import { ORGANIZATIONS, TMP_DIR } from "@app/config";
 
 export class Iterator {
-  private _composer: boolean = false;
+  private _limit?: number;
+  private _composer?: boolean;
   private _filters: ((repo: DataRepo) => boolean)[] = [];
   private _errors: string[] = [];
+
+  private _counter: number = 0;
 
   constructor() {
   }
@@ -33,6 +36,11 @@ export class Iterator {
     return this;
   }
 
+  withLimit(limit: number): this {
+    this._limit = limit;
+    return this;
+  }
+
   fetch(callback: IteratorCallback) {
     _.forEach(ORGANIZATIONS, (load: () => any[]) => {
       let repos = _(load() as DataRepo[]);
@@ -42,6 +50,8 @@ export class Iterator {
       });
 
       repos.forEach(repo => {
+        if (this._limit !== undefined && this._counter >= this._limit) throw "Iterator limit";
+
         const repoKey = `${repo.owner.login}-${repo.name}`;
         const repoPath = `${TMP_DIR}/${repoKey}`;
         const composer = this._composer ? this._parseComposer(repoPath) : undefined;
@@ -52,6 +62,8 @@ export class Iterator {
           exists: fs.existsSync(repoPath),
           composer
         });
+
+        this._counter++;
       });
     });
 
