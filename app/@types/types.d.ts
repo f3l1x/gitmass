@@ -35,6 +35,10 @@ interface GithubMember {
   avatar_url: string,
 }
 
+interface GithubRepo {
+
+}
+
 type DataOrgCb = { (repo: DataRepo): void };
 
 type DataOrgWithPathCb = { (repo: DataRepo, path: string): void };

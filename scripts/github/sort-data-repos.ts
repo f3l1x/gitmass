@@ -1,13 +1,12 @@
-const _ = require('lodash');
-const fs = require('fs');
+import _ from 'lodash';
+import fs from 'fs';
+import organizations from "@data/github/organizations.json";
 
-import organizations from "./../data/organizations.json";
-
-function sort() {
+function main(): void {
   _.forEach(organizations, org => sortOrg(org.name));
 }
 
-function sortOrg(org) {
+function sortOrg(org: string): void {
   const repos = JSON.parse(fs.readFileSync(`${__dirname}/../data/${org}.json`, { encoding: "UTF-8" }));
 
   const data = _(repos)
@@ -21,6 +20,5 @@ function sortOrg(org) {
   );
 }
 
-(async () => {
-  sort();
-})();
+// @wanted
+(async () => main())();
