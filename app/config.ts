@@ -37,6 +37,12 @@ export const ORGANIZATIONS = {
     krhk: () => require('./../data/github/krhk.json'),
 };
 
+export const CONTRIBUTTE = [
+  'contributte',
+  'nettrine',
+  'apitte',
+];
+
 export const COMPANIES = [
   'netrixone',
   'tlapnet',
