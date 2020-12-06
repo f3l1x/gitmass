@@ -1,29 +1,31 @@
 import _ from "lodash";
 import { spawnSync } from "child_process";
-import {iterFileRepo} from "@libs/utils/repos";
-import { TMP_DIR } from "@app/config";
+import { Iterator } from "@libs/utils/repos";
 
-function cloneRepo(repo: DataRepo) {
-  console.log(`Clonning [${repo.full_name}]: START`);
-  const output = spawnSync('git', ['clone', repo.clone_url, `${repo.owner.login}-${repo.name}`], { cwd: `${TMP_DIR}` });
-  console.log(`[${repo.full_name}]: ${output.status === 0 ? output.stdout : output.stderr}`);
-  console.log(`Clonning [${repo.full_name}]: DONE`);
+function cloneRepo(node: IteratorNode) {
+  console.log(`Clonning [${node.repo.full_name}]: START`);
+  const output = spawnSync('git', ['clone', node.repo.clone_url, node.path]);
+  console.log(`[${node.repo.full_name}]: ${output.status === 0 ? output.stdout : output.stderr}`);
+  console.log(`Clonning [${node.repo.full_name}]: DONE`);
 }
 
-function pullRepo(repo: DataRepo) {
-  console.log(`Pulling [${repo.full_name}]: START`);
+function pullRepo(node: IteratorNode) {
+  console.log(`Pulling [${node.repo.full_name}]: START`);
   const output = spawnSync('git fetch origin master && git reset --hard origin/master', {
     shell: true,
-    cwd: `${TMP_DIR}/${repo.owner.login}-${repo.name}`
+    cwd: node.path
   });
-  console.log(`[${repo.full_name}]: ${output.status === 0 ? output.stdout : output.stderr}`);
-  console.log(`Pulling [${repo.full_name}]: DONE`);
+  console.log(`[${node.repo.full_name}]: ${output.status === 0 ? output.stdout : output.stderr}`);
+  console.log(`Pulling [${node.repo.full_name}]: DONE`);
 }
 
 (async () => {
-  iterFileRepo(
-    {},
-    pullRepo,
-    cloneRepo
-  );
+  const iterator = Iterator.forContributte();
+  iterator.fetch(node => {
+    if (node.exists) {
+      pullRepo(node);
+    } else {
+      cloneRepo(node);
+    }
+  });
 })();

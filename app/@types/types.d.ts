@@ -1,6 +1,34 @@
+// ===============================================
+// SHARED ========================================
+// ===============================================
+
 interface Structure {
   [key: string]: any
 }
+
+interface Composer {
+  name: string;
+  description: string;
+  keywords: string[];
+  type: string;
+  license: string[];
+  homepage: string;
+  authors: {
+    name: string,
+    homepage: string,
+  }[];
+  require: {
+    [key: string]: string
+  };
+  "require_dev": {
+    [key: string]: string
+  };
+  extra: Structure;
+}
+
+// ===============================================
+// DATA ==========================================
+// ===============================================
 
 interface DataOrg {
   name: string,
@@ -19,9 +47,9 @@ interface DataRepo {
   }
 }
 
-interface ReposIteratorOptions {
-  filter: { [key: string]: any }
-}
+// ===============================================
+// HTTP ==========================================
+// ===============================================
 
 interface GithubOrg {
   name: string,
@@ -36,9 +64,19 @@ interface GithubMember {
 }
 
 interface GithubRepo {
-
 }
 
-type DataOrgCb = { (repo: DataRepo): void };
+// ===============================================
+// UTILS =========================================
+// ===============================================
 
-type DataOrgWithPathCb = { (repo: DataRepo, path: string): void };
+interface IteratorCallback {
+  (node: IteratorNode): void;
+}
+
+interface IteratorNode {
+  repo: DataRepo,
+  path: string,
+  exists: boolean,
+  composer?: Composer
+}
