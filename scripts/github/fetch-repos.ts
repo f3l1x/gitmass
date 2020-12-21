@@ -21,7 +21,7 @@ function pullRepo(node: IteratorNode) {
 
 (async () => {
   const iterator = Iterator.forContributte();
-  iterator.fetch(node => {
+  iterator.fetch(async (node) => {
     if (node.exists) {
       pullRepo(node);
     } else {

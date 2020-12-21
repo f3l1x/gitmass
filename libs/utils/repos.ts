@@ -1,4 +1,5 @@
 import _ from "lodash";
+import { forEachSeries } from "async";
 import fs from "fs";
 import { ORGANIZATIONS, TMP_DIR } from "@app/config";
 
@@ -26,6 +27,17 @@ export class Iterator {
     return inst;
   }
 
+  static forApitteOnly(): Iterator {
+    const inst = new Iterator();
+    inst.withFilter((repo) => {
+      if (repo.archived) return false;
+      if (_.startsWith(repo.full_name, 'apitte/')) return true;
+      return false;
+    });
+
+    return inst;
+  }
+
   withComposer(): this {
     this._composer = true;
     return this;
@@ -43,20 +55,20 @@ export class Iterator {
 
   fetch(callback: IteratorCallback) {
     _.forEach(ORGANIZATIONS, (load: () => any[]) => {
-      let repos = _(load() as DataRepo[]);
+      let repos = _(load());
 
       this._filters.forEach(filter => {
         repos = repos.filter(filter);
       });
 
-      repos.forEach(repo => {
+      forEachSeries<DataRepo>(repos.value(), async (repo) => {
         if (this._limit !== undefined && this._counter >= this._limit) throw "Iterator limit";
 
         const repoKey = `${repo.owner.login}-${repo.name}`;
         const repoPath = `${TMP_DIR}/${repoKey}`;
         const composer = this._composer ? this._parseComposer(repoPath) : undefined;
 
-        callback({
+        await callback({
           repo,
           path: repoPath,
           exists: fs.existsSync(repoPath),

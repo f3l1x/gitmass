@@ -19,7 +19,7 @@ function analyse(node: IteratorNode) {
 
 (async () => {
   const iterator = Iterator.forContributte();
-  iterator.fetch(node => {
+  iterator.fetch(async(node) => {
     analyse(node);
   });
 })();

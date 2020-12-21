@@ -36,7 +36,7 @@ function readFile(file: string): Buffer {
 
 (async () => {
   const iterator = Iterator.forContributte();
-  iterator.fetch(node => {
+  iterator.fetch(async (node) => {
     analyse(node);
   });
 })();

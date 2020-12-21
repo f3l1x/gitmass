@@ -71,7 +71,7 @@ interface GithubRepo {
 // ===============================================
 
 interface IteratorCallback {
-  (node: IteratorNode): void;
+  (node: IteratorNode): Promise<void>;
 }
 
 interface IteratorNode {
