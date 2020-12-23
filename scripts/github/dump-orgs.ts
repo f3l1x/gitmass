@@ -9,13 +9,13 @@ async function dump(): Promise<void> {
 
   for (const org of orgs) {
     try {
-      const githubOrg = await octokit.orgs.get({ org });
+      const resOrg = await octokit.orgs.get({ org });
 
-      data[githubOrg.data.login] = {
-        name: githubOrg.data.name,
-        webalize: githubOrg.data.login,
-        description: githubOrg.data.description,
-        id: githubOrg.data.id,
+      data[resOrg.data.login] = {
+        name: resOrg.data.name,
+        webalize: resOrg.data.login,
+        description: resOrg.data.description,
+        id: resOrg.data.id,
       }
     } catch (e) {
       console.log(e);
@@ -26,4 +26,4 @@ async function dump(): Promise<void> {
 }
 
 // @wanted
-(async () => dump())();
+(async () => await dump())();
