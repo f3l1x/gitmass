@@ -14,28 +14,59 @@ export class Iterator {
   constructor() {
   }
 
-  static forContributte(): Iterator {
-    const inst = new Iterator();
-    inst.withFilter((repo) => {
-      if (repo.archived) return false;
-      if (_.startsWith(repo.full_name, 'contributte/')) return true;
-      if (_.startsWith(repo.full_name, 'apitte/')) return true;
-      if (_.startsWith(repo.full_name, 'nettrine/')) return true;
-      return false;
-    });
+  static create(): Iterator {
+    return new Iterator();
+  }
 
-    return inst;
+  static forAll(): Iterator {
+    return Iterator
+      .create()
+      .withFilter((repo) => {
+        if (repo.archived) return false;
+        return true;
+      });
+  }
+
+  static forContributte(): Iterator {
+    return Iterator
+      .create()
+      .withFilter((repo) => {
+        if (repo.archived) return false;
+        if (_.startsWith(repo.full_name, 'contributte/')) return true;
+        if (_.startsWith(repo.full_name, 'apitte/')) return true;
+        if (_.startsWith(repo.full_name, 'nettrine/')) return true;
+        return false;
+      });
+  }
+
+  static forContributteOnly(): Iterator {
+    return Iterator
+      .create()
+      .withFilter((repo) => {
+        if (repo.archived) return false;
+        if (_.startsWith(repo.full_name, 'contributte/')) return true;
+        return false;
+      });
   }
 
   static forApitteOnly(): Iterator {
-    const inst = new Iterator();
-    inst.withFilter((repo) => {
-      if (repo.archived) return false;
-      if (_.startsWith(repo.full_name, 'apitte/')) return true;
-      return false;
-    });
+    return Iterator
+      .create()
+      .withFilter((repo) => {
+        if (repo.archived) return false;
+        if (_.startsWith(repo.full_name, 'apitte/')) return true;
+        return false;
+      });
+  }
 
-    return inst;
+  static forNettrineOnly(): Iterator {
+    return Iterator
+      .create()
+      .withFilter((repo) => {
+        if (repo.archived) return false;
+        if (_.startsWith(repo.full_name, 'nettrine/')) return true;
+        return false;
+      });
   }
 
   withComposer(): this {
