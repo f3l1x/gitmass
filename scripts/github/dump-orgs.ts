@@ -1,21 +1,21 @@
 import _ from "lodash";
 import fs from "fs";
 import { ORGANIZATIONS, GITHUB_DIR } from "@app/config";
-import { fetchOrganization } from "@libs/http/github";
+import { octokit } from "@libs/http/github";
 
-async function main(): Promise<void> {
+async function dump(): Promise<void> {
   const data: Structure = {};
   const orgs = Object.keys(ORGANIZATIONS);
 
   for (const org of orgs) {
     try {
-      const githubOrg = await fetchOrganization({ org });
+      const githubOrg = await octokit.orgs.get({ org });
 
-      data[githubOrg.login] = {
-        name: githubOrg.name,
-        webalize: githubOrg.login,
-        description: githubOrg.description,
-        id: githubOrg.id,
+      data[githubOrg.data.login] = {
+        name: githubOrg.data.name,
+        webalize: githubOrg.data.login,
+        description: githubOrg.data.description,
+        id: githubOrg.data.id,
       }
     } catch (e) {
       console.log(e);
@@ -26,4 +26,4 @@ async function main(): Promise<void> {
 }
 
 // @wanted
-(async () => main())();
+(async () => dump())();
