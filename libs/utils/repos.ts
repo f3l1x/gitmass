@@ -69,6 +69,24 @@ export class Iterator {
       });
   }
 
+  static forMainstream(): Iterator {
+    return Iterator
+      .create()
+      .withFilter((repo) => {
+        if (repo.archived) return false;
+        if (_.startsWith(repo.full_name, 'contributte/')) return true;
+        if (_.startsWith(repo.full_name, 'apitte/')) return true;
+        if (_.startsWith(repo.full_name, 'nettrine/')) return true;
+        if (_.startsWith(repo.full_name, 'dockette/')) return true;
+        if (_.startsWith(repo.full_name, 'ninjify')) return true;
+        if (_.startsWith(repo.full_name, 'pwnlabs')) return true;
+        if (_.startsWith(repo.full_name, 'juicyfx')) return true;
+        if (_.startsWith(repo.full_name, 'webkitty')) return true;
+        if (_.startsWith(repo.full_name, 'phalette')) return true;
+        if (_.startsWith(repo.full_name, 'trainit')) return true;
+        return false;
+      });
+  }
   withComposer(): this {
     this._composer = true;
     return this;
