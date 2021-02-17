@@ -9,7 +9,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -99,8 +99,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -114,7 +114,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -204,8 +204,8 @@
     "watchers": 3,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -219,7 +219,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -309,8 +309,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -324,7 +324,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -414,8 +414,8 @@
     "watchers": 3,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -429,7 +429,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -519,8 +519,8 @@
     "watchers": 2,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -534,7 +534,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -624,8 +624,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -639,7 +639,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -729,8 +729,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -744,7 +744,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -834,8 +834,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -849,7 +849,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -939,8 +939,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -954,7 +954,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -1044,8 +1044,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1059,7 +1059,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -1149,8 +1149,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1164,7 +1164,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -1254,8 +1254,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1269,7 +1269,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -1359,8 +1359,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1374,7 +1374,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -1458,8 +1458,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1473,7 +1473,7 @@
       "login": "tlapnet",
       "id": 22914186,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjIyOTE0MTg2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/22914186?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22914186?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/tlapnet",
       "html_url": "https://github.com/tlapnet",
@@ -1530,17 +1530,17 @@
     "releases_url": "https://api.github.com/repos/tlapnet/dotfiles/releases{/id}",
     "deployments_url": "https://api.github.com/repos/tlapnet/dotfiles/deployments",
     "created_at": "2020-02-20T12:21:31Z",
-    "updated_at": "2020-10-18T06:49:39Z",
-    "pushed_at": "2020-10-18T06:49:37Z",
+    "updated_at": "2021-01-16T08:25:11Z",
+    "pushed_at": "2021-01-16T08:25:08Z",
     "git_url": "git://github.com/tlapnet/dotfiles.git",
     "ssh_url": "git@github.com:tlapnet/dotfiles.git",
     "clone_url": "https://github.com/tlapnet/dotfiles.git",
     "svn_url": "https://github.com/tlapnet/dotfiles",
     "homepage": null,
-    "size": 88,
+    "size": 90,
     "stargazers_count": 0,
     "watchers_count": 0,
-    "language": "Shell",
+    "language": "Vim script",
     "has_issues": true,
     "has_projects": false,
     "has_downloads": true,
@@ -1563,8 +1563,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   }

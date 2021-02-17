@@ -26,7 +26,7 @@
   "planette": {
     "name": "Planette",
     "webalize": "planette",
-    "description": "Nette-land and community projects",
+    "description": "Moved to @contributte ",
     "id": 25814367
   },
   "phalette": {
@@ -44,13 +44,13 @@
   "dockette": {
     "name": "Dockette",
     "webalize": "dockette",
-    "description": "High-tech docker stuff | docker images | docker containers | docker tools",
+    "description": "High-tech docker images • docker containers • docker projects • docker snippets • docker examples",
     "id": 15856518
   },
   "trainit": {
     "name": "Train+it",
     "webalize": "trainit",
-    "description": "Tutorials, Hints, Tips, Practices, Samples to IT world",
+    "description": "Tutorials, Hints, Tips, Samples, Examples, Stacks, Sandboxes for Development ",
     "id": 17249862
   },
   "juicyfx": {
@@ -62,20 +62,20 @@
   "webkitty": {
     "name": "WebKitty",
     "webalize": "webkitty",
-    "description": "Let's web!",
+    "description": "Moved to @f00b4r",
     "id": 31770177
   },
   "pwnlabs": {
     "name": "Pwned Labs",
     "webalize": "pwnlabs",
-    "description": "R&D",
-    "id": 35178455
+    "description": "Moved to @f00b4r",
+    "id": 47671527
   },
   "f00b4r": {
     "name": "f00b4r",
     "webalize": "f00b4r",
     "description": "Livin-on-the-bleeding-edge-of-development",
-    "id": 47671527
+    "id": 35178455
   },
   "netrixone": {
     "name": "NX1",

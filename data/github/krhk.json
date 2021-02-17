@@ -9,7 +9,7 @@
       "login": "krhk",
       "id": 46677684,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ2Njc3Njg0",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/46677684?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46677684?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/krhk",
       "html_url": "https://github.com/krhk",
@@ -93,8 +93,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -108,7 +108,7 @@
       "login": "krhk",
       "id": 46677684,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ2Njc3Njg0",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/46677684?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46677684?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/krhk",
       "html_url": "https://github.com/krhk",
@@ -165,14 +165,14 @@
     "releases_url": "https://api.github.com/repos/krhk/opendata/releases{/id}",
     "deployments_url": "https://api.github.com/repos/krhk/opendata/deployments",
     "created_at": "2020-06-03T07:52:03Z",
-    "updated_at": "2020-10-09T11:15:14Z",
-    "pushed_at": "2020-10-09T11:15:12Z",
+    "updated_at": "2021-01-10T15:11:51Z",
+    "pushed_at": "2021-01-10T15:11:49Z",
     "git_url": "git://github.com/krhk/opendata.git",
     "ssh_url": "git@github.com:krhk/opendata.git",
     "clone_url": "https://github.com/krhk/opendata.git",
     "svn_url": "https://github.com/krhk/opendata",
     "homepage": "https://open.datakhk.cz",
-    "size": 1096,
+    "size": 2703,
     "stargazers_count": 0,
     "watchers_count": 0,
     "language": "JavaScript",
@@ -192,8 +192,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -207,7 +207,7 @@
       "login": "krhk",
       "id": 46677684,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ2Njc3Njg0",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/46677684?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46677684?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/krhk",
       "html_url": "https://github.com/krhk",
@@ -291,8 +291,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   }

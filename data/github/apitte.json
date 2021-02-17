@@ -9,7 +9,7 @@
       "login": "apitte",
       "id": 31967234,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjMxOTY3MjM0",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/31967234?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31967234?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/apitte",
       "html_url": "https://github.com/apitte",
@@ -66,7 +66,7 @@
     "releases_url": "https://api.github.com/repos/apitte/core/releases{/id}",
     "deployments_url": "https://api.github.com/repos/apitte/core/deployments",
     "created_at": "2017-09-15T14:19:34Z",
-    "updated_at": "2020-12-23T14:22:40Z",
+    "updated_at": "2021-01-17T21:16:03Z",
     "pushed_at": "2020-12-23T14:22:37Z",
     "git_url": "git://github.com/apitte/core.git",
     "ssh_url": "git@github.com:apitte/core.git",
@@ -74,19 +74,19 @@
     "svn_url": "https://github.com/apitte/core",
     "homepage": "https://contributte.org/packages/apitte/core/",
     "size": 648,
-    "stargazers_count": 37,
-    "watchers_count": 37,
+    "stargazers_count": 38,
+    "watchers_count": 38,
     "language": "PHP",
     "has_issues": true,
     "has_projects": false,
     "has_downloads": true,
     "has_wiki": false,
     "has_pages": false,
-    "forks_count": 18,
+    "forks_count": 17,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 3,
+    "open_issues_count": 5,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -94,13 +94,13 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 18,
-    "open_issues": 3,
-    "watchers": 37,
+    "forks": 17,
+    "open_issues": 5,
+    "watchers": 38,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -114,7 +114,7 @@
       "login": "apitte",
       "id": 31967234,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjMxOTY3MjM0",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/31967234?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31967234?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/apitte",
       "html_url": "https://github.com/apitte",
@@ -187,7 +187,7 @@
     "has_downloads": true,
     "has_wiki": false,
     "has_pages": false,
-    "forks_count": 1,
+    "forks_count": 0,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -199,13 +199,13 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 1,
+    "forks": 0,
     "open_issues": 0,
     "watchers": 4,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -219,7 +219,7 @@
       "login": "apitte",
       "id": 31967234,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjMxOTY3MjM0",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/31967234?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31967234?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/apitte",
       "html_url": "https://github.com/apitte",
@@ -292,7 +292,7 @@
     "has_downloads": true,
     "has_wiki": false,
     "has_pages": false,
-    "forks_count": 12,
+    "forks_count": 10,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -304,13 +304,13 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 12,
+    "forks": 10,
     "open_issues": 1,
     "watchers": 11,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -324,7 +324,7 @@
       "login": "apitte",
       "id": 31967234,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjMxOTY3MjM0",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/31967234?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31967234?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/apitte",
       "html_url": "https://github.com/apitte",
@@ -401,7 +401,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 0,
+    "open_issues_count": 1,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -410,12 +410,12 @@
       "node_id": "MDc6TGljZW5zZTEz"
     },
     "forks": 1,
-    "open_issues": 0,
+    "open_issues": 1,
     "watchers": 6,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -429,7 +429,7 @@
       "login": "apitte",
       "id": 31967234,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjMxOTY3MjM0",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/31967234?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31967234?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/apitte",
       "html_url": "https://github.com/apitte",
@@ -519,8 +519,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -534,7 +534,7 @@
       "login": "apitte",
       "id": 31967234,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjMxOTY3MjM0",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/31967234?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31967234?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/apitte",
       "html_url": "https://github.com/apitte",
@@ -624,8 +624,8 @@
     "watchers": 5,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -639,7 +639,7 @@
       "login": "apitte",
       "id": 31967234,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjMxOTY3MjM0",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/31967234?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31967234?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/apitte",
       "html_url": "https://github.com/apitte",
@@ -696,14 +696,14 @@
     "releases_url": "https://api.github.com/repos/apitte/debug/releases{/id}",
     "deployments_url": "https://api.github.com/repos/apitte/debug/deployments",
     "created_at": "2017-09-15T14:40:23Z",
-    "updated_at": "2020-12-23T14:22:50Z",
-    "pushed_at": "2020-12-23T14:22:48Z",
+    "updated_at": "2021-01-09T17:05:50Z",
+    "pushed_at": "2021-01-09T17:05:48Z",
     "git_url": "git://github.com/apitte/debug.git",
     "ssh_url": "git@github.com:apitte/debug.git",
     "clone_url": "https://github.com/apitte/debug.git",
     "svn_url": "https://github.com/apitte/debug",
     "homepage": "https://contributte.org/packages/apitte/debug.html",
-    "size": 92,
+    "size": 87,
     "stargazers_count": 4,
     "watchers_count": 4,
     "language": "PHP",
@@ -712,11 +712,11 @@
     "has_downloads": true,
     "has_wiki": true,
     "has_pages": false,
-    "forks_count": 3,
+    "forks_count": 2,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 1,
+    "open_issues_count": 0,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -724,13 +724,13 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 3,
-    "open_issues": 1,
+    "forks": 2,
+    "open_issues": 0,
     "watchers": 4,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -744,7 +744,7 @@
       "login": "apitte",
       "id": 31967234,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjMxOTY3MjM0",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/31967234?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31967234?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/apitte",
       "html_url": "https://github.com/apitte",
@@ -834,8 +834,8 @@
     "watchers": 5,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -849,7 +849,7 @@
       "login": "apitte",
       "id": 31967234,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjMxOTY3MjM0",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/31967234?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31967234?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/apitte",
       "html_url": "https://github.com/apitte",
@@ -922,7 +922,7 @@
     "has_downloads": true,
     "has_wiki": true,
     "has_pages": false,
-    "forks_count": 1,
+    "forks_count": 0,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -934,13 +934,13 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 1,
+    "forks": 0,
     "open_issues": 0,
     "watchers": 4,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   }

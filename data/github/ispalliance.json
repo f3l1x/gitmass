@@ -9,7 +9,7 @@
       "login": "ispalliance",
       "id": 24393707,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjI0MzkzNzA3",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/24393707?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24393707?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/ispalliance",
       "html_url": "https://github.com/ispalliance",
@@ -99,8 +99,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -114,7 +114,7 @@
       "login": "ispalliance",
       "id": 24393707,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjI0MzkzNzA3",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/24393707?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24393707?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/ispalliance",
       "html_url": "https://github.com/ispalliance",
@@ -187,7 +187,7 @@
     "has_downloads": true,
     "has_wiki": true,
     "has_pages": false,
-    "forks_count": 1,
+    "forks_count": 0,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -199,13 +199,13 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 1,
+    "forks": 0,
     "open_issues": 0,
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -219,7 +219,7 @@
       "login": "ispalliance",
       "id": 24393707,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjI0MzkzNzA3",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/24393707?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24393707?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/ispalliance",
       "html_url": "https://github.com/ispalliance",
@@ -309,8 +309,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -324,7 +324,7 @@
       "login": "ispalliance",
       "id": 24393707,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjI0MzkzNzA3",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/24393707?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24393707?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/ispalliance",
       "html_url": "https://github.com/ispalliance",
@@ -414,8 +414,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   }

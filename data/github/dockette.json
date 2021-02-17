@@ -9,7 +9,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -99,8 +99,8 @@
     "watchers": 8,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -114,7 +114,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -187,7 +187,7 @@
     "has_downloads": true,
     "has_wiki": true,
     "has_pages": false,
-    "forks_count": 3,
+    "forks_count": 4,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -199,13 +199,13 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 3,
+    "forks": 4,
     "open_issues": 0,
     "watchers": 3,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -219,7 +219,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -309,8 +309,8 @@
     "watchers": 5,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -324,7 +324,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -397,7 +397,7 @@
     "has_downloads": true,
     "has_wiki": true,
     "has_pages": false,
-    "forks_count": 21,
+    "forks_count": 23,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -409,13 +409,13 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 21,
+    "forks": 23,
     "open_issues": 6,
     "watchers": 45,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -429,7 +429,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -519,8 +519,8 @@
     "watchers": 4,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -534,7 +534,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -624,8 +624,8 @@
     "watchers": 4,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -639,7 +639,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -712,11 +712,11 @@
     "has_downloads": true,
     "has_wiki": false,
     "has_pages": false,
-    "forks_count": 11,
+    "forks_count": 12,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 1,
+    "open_issues_count": 2,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -724,13 +724,13 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 11,
-    "open_issues": 1,
+    "forks": 12,
+    "open_issues": 2,
     "watchers": 41,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -744,7 +744,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -834,8 +834,8 @@
     "watchers": 33,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -849,7 +849,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -939,8 +939,8 @@
     "watchers": 3,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -954,7 +954,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -1044,8 +1044,8 @@
     "watchers": 2,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1059,7 +1059,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -1149,8 +1149,8 @@
     "watchers": 2,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1164,7 +1164,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -1221,14 +1221,14 @@
     "releases_url": "https://api.github.com/repos/dockette/ci/releases{/id}",
     "deployments_url": "https://api.github.com/repos/dockette/ci/deployments",
     "created_at": "2016-08-20T11:17:19Z",
-    "updated_at": "2020-12-03T13:18:35Z",
-    "pushed_at": "2020-12-03T13:18:33Z",
+    "updated_at": "2021-02-16T15:44:43Z",
+    "pushed_at": "2021-02-16T15:44:41Z",
     "git_url": "git://github.com/dockette/ci.git",
     "ssh_url": "git@github.com:dockette/ci.git",
     "clone_url": "https://github.com/dockette/ci.git",
     "svn_url": "https://github.com/dockette/ci",
     "homepage": "",
-    "size": 121,
+    "size": 139,
     "stargazers_count": 13,
     "watchers_count": 13,
     "language": "Dockerfile",
@@ -1254,8 +1254,8 @@
     "watchers": 13,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1269,7 +1269,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -1326,7 +1326,7 @@
     "releases_url": "https://api.github.com/repos/dockette/adminer/releases{/id}",
     "deployments_url": "https://api.github.com/repos/dockette/adminer/deployments",
     "created_at": "2016-08-26T06:58:14Z",
-    "updated_at": "2020-12-21T11:31:49Z",
+    "updated_at": "2021-01-08T20:35:27Z",
     "pushed_at": "2020-10-21T19:19:17Z",
     "git_url": "git://github.com/dockette/adminer.git",
     "ssh_url": "git@github.com:dockette/adminer.git",
@@ -1334,19 +1334,19 @@
     "svn_url": "https://github.com/dockette/adminer",
     "homepage": "",
     "size": 172,
-    "stargazers_count": 39,
-    "watchers_count": 39,
+    "stargazers_count": 41,
+    "watchers_count": 41,
     "language": "Dockerfile",
     "has_issues": true,
     "has_projects": false,
     "has_downloads": true,
     "has_wiki": false,
     "has_pages": false,
-    "forks_count": 14,
+    "forks_count": 15,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 4,
+    "open_issues_count": 5,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -1354,13 +1354,13 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 14,
-    "open_issues": 4,
-    "watchers": 39,
+    "forks": 15,
+    "open_issues": 5,
+    "watchers": 41,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1374,7 +1374,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -1431,14 +1431,14 @@
     "releases_url": "https://api.github.com/repos/dockette/alpine/releases{/id}",
     "deployments_url": "https://api.github.com/repos/dockette/alpine/deployments",
     "created_at": "2016-10-04T15:42:36Z",
-    "updated_at": "2020-08-12T14:09:16Z",
-    "pushed_at": "2020-08-12T14:09:13Z",
+    "updated_at": "2021-01-29T20:12:29Z",
+    "pushed_at": "2021-01-29T20:12:27Z",
     "git_url": "git://github.com/dockette/alpine.git",
     "ssh_url": "git@github.com:dockette/alpine.git",
     "clone_url": "https://github.com/dockette/alpine.git",
     "svn_url": "https://github.com/dockette/alpine",
     "homepage": "",
-    "size": 17,
+    "size": 19,
     "stargazers_count": 3,
     "watchers_count": 3,
     "language": "Dockerfile",
@@ -1464,8 +1464,8 @@
     "watchers": 3,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1479,7 +1479,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -1569,8 +1569,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1584,7 +1584,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -1674,8 +1674,8 @@
     "watchers": 4,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1689,7 +1689,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -1779,8 +1779,8 @@
     "watchers": 3,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1794,7 +1794,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -1884,8 +1884,8 @@
     "watchers": 4,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -1899,7 +1899,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -1989,8 +1989,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -2004,7 +2004,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -2094,8 +2094,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -2109,7 +2109,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -2199,8 +2199,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -2214,7 +2214,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -2304,8 +2304,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -2319,7 +2319,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -2376,7 +2376,7 @@
     "releases_url": "https://api.github.com/repos/dockette/web/releases{/id}",
     "deployments_url": "https://api.github.com/repos/dockette/web/deployments",
     "created_at": "2017-04-12T06:18:17Z",
-    "updated_at": "2020-12-22T18:34:41Z",
+    "updated_at": "2021-02-17T01:16:41Z",
     "pushed_at": "2020-12-22T18:34:38Z",
     "git_url": "git://github.com/dockette/web.git",
     "ssh_url": "git@github.com:dockette/web.git",
@@ -2384,15 +2384,15 @@
     "svn_url": "https://github.com/dockette/web",
     "homepage": "",
     "size": 598,
-    "stargazers_count": 17,
-    "watchers_count": 17,
+    "stargazers_count": 19,
+    "watchers_count": 19,
     "language": "Dockerfile",
     "has_issues": true,
     "has_projects": false,
     "has_downloads": true,
     "has_wiki": false,
     "has_pages": false,
-    "forks_count": 4,
+    "forks_count": 5,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -2404,13 +2404,13 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 4,
+    "forks": 5,
     "open_issues": 0,
-    "watchers": 17,
+    "watchers": 19,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -2424,7 +2424,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -2514,8 +2514,8 @@
     "watchers": 3,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -2529,7 +2529,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -2619,8 +2619,8 @@
     "watchers": 3,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -2634,7 +2634,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -2724,8 +2724,8 @@
     "watchers": 2,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -2739,7 +2739,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -2829,8 +2829,8 @@
     "watchers": 2,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -2844,7 +2844,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -2934,8 +2934,8 @@
     "watchers": 7,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -2949,7 +2949,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -3006,7 +3006,7 @@
     "releases_url": "https://api.github.com/repos/dockette/docker/releases{/id}",
     "deployments_url": "https://api.github.com/repos/dockette/docker/deployments",
     "created_at": "2018-03-17T20:36:43Z",
-    "updated_at": "2019-01-11T10:28:42Z",
+    "updated_at": "2021-02-17T01:17:12Z",
     "pushed_at": "2019-01-11T10:28:41Z",
     "git_url": "git://github.com/dockette/docker.git",
     "ssh_url": "git@github.com:dockette/docker.git",
@@ -3014,8 +3014,8 @@
     "svn_url": "https://github.com/dockette/docker",
     "homepage": null,
     "size": 9,
-    "stargazers_count": 2,
-    "watchers_count": 2,
+    "stargazers_count": 3,
+    "watchers_count": 3,
     "language": "Dockerfile",
     "has_issues": true,
     "has_projects": false,
@@ -3036,11 +3036,11 @@
     },
     "forks": 1,
     "open_issues": 0,
-    "watchers": 2,
+    "watchers": 3,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -3054,7 +3054,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -3144,8 +3144,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -3159,7 +3159,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -3249,8 +3249,8 @@
     "watchers": 2,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -3264,7 +3264,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -3354,8 +3354,8 @@
     "watchers": 9,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -3369,7 +3369,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -3459,8 +3459,8 @@
     "watchers": 5,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -3474,7 +3474,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -3564,8 +3564,8 @@
     "watchers": 0,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -3579,7 +3579,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -3669,8 +3669,8 @@
     "watchers": 6,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   },
@@ -3684,7 +3684,7 @@
       "login": "dockette",
       "id": 15856518,
       "node_id": "MDEyOk9yZ2FuaXphdGlvbjE1ODU2NTE4",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/15856518?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15856518?v=4",
       "gravatar_id": "",
       "url": "https://api.github.com/users/dockette",
       "html_url": "https://github.com/dockette",
@@ -3774,8 +3774,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": true,
-      "push": true,
+      "admin": false,
+      "push": false,
       "pull": true
     }
   }
