@@ -113,7 +113,7 @@ export class Iterator {
       forEachSeries<DataRepo>(repos.value(), async (repo) => {
         if (this._limit !== undefined && this._counter >= this._limit) throw "Iterator limit";
 
-        const repoKey = `${repo.owner.login}-${repo.name}`;
+        const repoKey = `${repo.owner.login}/${repo.name}`;
         const repoPath = `${TMP_DIR}/${repoKey}`;
         const composer = this._composer ? this._parseComposer(repoPath) : undefined;
 

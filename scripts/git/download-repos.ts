@@ -20,11 +20,19 @@ async function cloneRepo(node: IteratorNode): Promise<void> {
     });
     child.on('close', (code) => {
       console.log(`Clonning [${node.repo.full_name}]: ${code === 0 ? 'DONE' : 'ERRORED'}`);
-      resolve();
+      if (code === 0) {
+        resolve();
+      } else {
+        reject();
+      }
     });
-    child.on('exit', () => {
-      console.error(`Clonning [${node.repo.full_name}]: FAILED`);
-      reject();
+    child.on('exit', (code) => {
+      console.log(`Cloning [${node.repo.full_name}]: ${code === 0 ? 'DONE' : 'ERRORED'}`);
+      if (code === 0) {
+        resolve();
+      } else {
+        reject();
+      }
     });
   })
 }
@@ -47,6 +55,14 @@ async function pullRepo(node: IteratorNode): Promise<void> {
     });
     child.stderr.on('data', (data) => {
       console.error(`[${node.repo.full_name}]: ${data}`);
+    });
+    child.on('close', (code) => {
+      console.log(`Pulling [${node.repo.full_name}]: ${code === 0 ? 'DONE' : 'ERRORED'}`);
+      if (code === 0) {
+        resolve();
+      } else {
+        reject();
+      }
     });
     child.on('exit', (code) => {
       console.log(`Pulling [${node.repo.full_name}]: ${code === 0 ? 'DONE' : 'ERRORED'}`);
