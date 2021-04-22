@@ -397,7 +397,7 @@
     "has_downloads": true,
     "has_wiki": false,
     "has_pages": false,
-    "forks_count": 44,
+    "forks_count": 43,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -409,7 +409,7 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 44,
+    "forks": 43,
     "open_issues": 14,
     "watchers": 453,
     "default_branch": "master",
