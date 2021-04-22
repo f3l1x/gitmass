@@ -66,16 +66,16 @@
     "releases_url": "https://api.github.com/repos/apitte/core/releases{/id}",
     "deployments_url": "https://api.github.com/repos/apitte/core/deployments",
     "created_at": "2017-09-15T14:19:34Z",
-    "updated_at": "2021-01-17T21:16:03Z",
-    "pushed_at": "2020-12-23T14:22:37Z",
+    "updated_at": "2021-04-07T16:56:42Z",
+    "pushed_at": "2021-03-26T14:22:15Z",
     "git_url": "git://github.com/apitte/core.git",
     "ssh_url": "git@github.com:apitte/core.git",
     "clone_url": "https://github.com/apitte/core.git",
     "svn_url": "https://github.com/apitte/core",
     "homepage": "https://contributte.org/packages/apitte/core/",
     "size": 648,
-    "stargazers_count": 38,
-    "watchers_count": 38,
+    "stargazers_count": 39,
+    "watchers_count": 39,
     "language": "PHP",
     "has_issues": true,
     "has_projects": false,
@@ -86,7 +86,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 5,
+    "open_issues_count": 6,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -95,12 +95,12 @@
       "node_id": "MDc6TGljZW5zZTEz"
     },
     "forks": 17,
-    "open_issues": 5,
-    "watchers": 38,
+    "open_issues": 6,
+    "watchers": 39,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -204,8 +204,8 @@
     "watchers": 4,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -276,7 +276,7 @@
     "releases_url": "https://api.github.com/repos/apitte/openapi/releases{/id}",
     "deployments_url": "https://api.github.com/repos/apitte/openapi/deployments",
     "created_at": "2017-09-15T14:23:12Z",
-    "updated_at": "2020-12-23T14:29:18Z",
+    "updated_at": "2021-03-04T07:57:16Z",
     "pushed_at": "2020-12-23T14:29:16Z",
     "git_url": "git://github.com/apitte/openapi.git",
     "ssh_url": "git@github.com:apitte/openapi.git",
@@ -284,8 +284,8 @@
     "svn_url": "https://github.com/apitte/openapi",
     "homepage": "https://contributte.org/packages/apitte/openapi.html",
     "size": 1081,
-    "stargazers_count": 11,
-    "watchers_count": 11,
+    "stargazers_count": 12,
+    "watchers_count": 12,
     "language": "CSS",
     "has_issues": true,
     "has_projects": false,
@@ -306,11 +306,11 @@
     },
     "forks": 10,
     "open_issues": 1,
-    "watchers": 11,
+    "watchers": 12,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -414,8 +414,8 @@
     "watchers": 6,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -519,8 +519,8 @@
     "watchers": 1,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -624,8 +624,8 @@
     "watchers": 5,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -696,14 +696,14 @@
     "releases_url": "https://api.github.com/repos/apitte/debug/releases{/id}",
     "deployments_url": "https://api.github.com/repos/apitte/debug/deployments",
     "created_at": "2017-09-15T14:40:23Z",
-    "updated_at": "2021-01-09T17:05:50Z",
-    "pushed_at": "2021-01-09T17:05:48Z",
+    "updated_at": "2021-03-20T11:48:09Z",
+    "pushed_at": "2021-03-20T11:48:07Z",
     "git_url": "git://github.com/apitte/debug.git",
     "ssh_url": "git@github.com:apitte/debug.git",
     "clone_url": "https://github.com/apitte/debug.git",
     "svn_url": "https://github.com/apitte/debug",
     "homepage": "https://contributte.org/packages/apitte/debug.html",
-    "size": 87,
+    "size": 89,
     "stargazers_count": 4,
     "watchers_count": 4,
     "language": "PHP",
@@ -729,8 +729,8 @@
     "watchers": 4,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -817,7 +817,7 @@
     "has_downloads": true,
     "has_wiki": false,
     "has_pages": false,
-    "forks_count": 1,
+    "forks_count": 2,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -829,13 +829,13 @@
       "url": "https://api.github.com/licenses/mit",
       "node_id": "MDc6TGljZW5zZTEz"
     },
-    "forks": 1,
+    "forks": 2,
     "open_issues": 0,
     "watchers": 5,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   },
@@ -939,8 +939,8 @@
     "watchers": 4,
     "default_branch": "master",
     "permissions": {
-      "admin": false,
-      "push": false,
+      "admin": true,
+      "push": true,
       "pull": true
     }
   }

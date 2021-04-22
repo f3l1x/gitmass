@@ -23,18 +23,6 @@
     "description": "Easy & smart integration of Doctrine Project to Nette Framework",
     "id": 26110973
   },
-  "planette": {
-    "name": "Planette",
-    "webalize": "planette",
-    "description": "Moved to @contributte ",
-    "id": 25814367
-  },
-  "phalette": {
-    "name": "Phalette",
-    "webalize": "phalette",
-    "description": "Phalcon & Nette",
-    "id": 13978584
-  },
   "ninjify": {
     "name": "Ninjify",
     "webalize": "ninjify",
@@ -47,70 +35,16 @@
     "description": "High-tech docker images • docker containers • docker projects • docker snippets • docker examples",
     "id": 15856518
   },
-  "trainit": {
-    "name": "Train+it",
-    "webalize": "trainit",
-    "description": "Tutorials, Hints, Tips, Samples, Examples, Stacks, Sandboxes for Development ",
-    "id": 17249862
-  },
   "juicyfx": {
     "name": "Juicy(fx)",
     "webalize": "juicyfx",
     "description": "Incredible serverless juicy functions (lambdas)",
     "id": 46406334
   },
-  "webkitty": {
-    "name": "WebKitty",
-    "webalize": "webkitty",
-    "description": "Moved to @f00b4r",
-    "id": 31770177
-  },
-  "pwnlabs": {
-    "name": "Pwned Labs",
-    "webalize": "pwnlabs",
-    "description": "Moved to @f00b4r",
-    "id": 47671527
-  },
   "f00b4r": {
     "name": "f00b4r",
     "webalize": "f00b4r",
     "description": "Livin-on-the-bleeding-edge-of-development",
     "id": 35178455
-  },
-  "netrixone": {
-    "name": "NX1",
-    "webalize": "netrixone",
-    "description": "",
-    "id": 17786838
-  },
-  "tlapnet": {
-    "name": "Tlapnet",
-    "webalize": "tlapnet",
-    "description": "",
-    "id": 22914186
-  },
-  "ispalliance": {
-    "name": "ISP Alliance",
-    "webalize": "ispalliance",
-    "description": "",
-    "id": 24393707
-  },
-  "beetfit": {
-    "name": "BeetFit",
-    "webalize": "beetfit",
-    "description": "",
-    "id": 27070959
-  },
-  "flowsource": {
-    "name": "Flow Source",
-    "webalize": "flowsource",
-    "description": "Flow Sourced Apps",
-    "id": 60388014
-  },
-  "krhk": {
-    "name": "Královehradecký kraj",
-    "webalize": "krhk",
-    "description": "",
-    "id": 46677684
   }
 }

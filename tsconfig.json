@@ -9,10 +9,6 @@
     "outDir": "dist",
     "sourceMap": false,
     "declaration": false,
-    "typeRoots": [
-      "./node_modules/@types",
-      "app/@types"
-    ],
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "noEmitOnError": true,
@@ -22,28 +18,26 @@
     "preserveConstEnums": true,
     "baseUrl": ".",
     "paths": {
-      "@app/*": [
-        "app/*"
+      "@/*": [
+        "src/*"
       ],
       "@data/*": [
         "data/*"
-      ],
-      "@libs/*": [
-        "libs/*"
-      ],
-      "@scripts/*": [
-        "scripts/*"
       ]
-    }
+    },
+    "typeRoots": [
+      "node_modules/@types",
+      "src/@types"
+    ],
   },
   "include": [
-    "app/**/*",
-    "libs/**/*",
-    "scripts/**/*"
+    "src/**/*",
+    "bin/**/*",
   ],
   "exclude": [
     "data",
     "dist",
-    "tmp"
+    "tmp",
+    "node_modules"
   ],
 }
