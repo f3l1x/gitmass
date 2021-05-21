@@ -9,3 +9,6 @@
 
 # JS
 /dist
+
+# ENV
+/.env
