@@ -76,7 +76,7 @@ async function pullRepo(node: Utils.IteratorNode): Promise<void> {
 }
 
 (async () => {
-  const iterator = Iterator.forAll();
+  const iterator = Iterator.forContributte();
   iterator.fetch(async (node) => {
     try {
       if (node.exists) {
